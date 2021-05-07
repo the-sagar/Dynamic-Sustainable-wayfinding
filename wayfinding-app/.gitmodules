@@ -1,0 +1,6 @@
+[submodule "RoutingBackend"]
+	path = RoutingBackend
+	url = git@github.com:TCD20CS7CS3-G6/RoutingBackend.git
+[submodule "android/P2PBluetoothNetwork"]
+	path = android/P2PBluetoothNetwork
+	url = git@github.com:TCD20CS7CS3-G6/P2PBluetoothNetwork.git

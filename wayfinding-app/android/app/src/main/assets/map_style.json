@@ -1,0 +1,465 @@
+{
+  "version": 8,
+  "name": "Wayfinding",
+  "metadata": {
+    "mapbox:type": "default",
+    "mapbox:origin": "basic-v1",
+    "mapbox:sdk-support": {
+      "android": "9.3.0",
+      "ios": "5.10.0",
+      "js": "2.0.0"
+    },
+    "mapbox:autocomposite": true,
+    "mapbox:groups": {
+      "Land, water, & sky, land": {
+        "name": "Land, water, & sky, land",
+        "collapsed": false
+      },
+      "Land, water, & sky, water": {
+        "name": "Land, water, & sky, water",
+        "collapsed": false
+      },
+      "Land, water, & sky, built": {
+        "name": "Land, water, & sky, built",
+        "collapsed": false
+      },
+      "Transit, built": {"name": "Transit, built", "collapsed": false},
+      "Buildings, built": {
+        "name": "Buildings, built",
+        "collapsed": false
+      },
+      "Walking, cycling, etc., tunnels": {
+        "name": "Walking, cycling, etc., tunnels",
+        "collapsed": false
+      },
+      "Road network, tunnels": {
+        "name": "Road network, tunnels",
+        "collapsed": false
+      },
+      "Walking, cycling, etc., surface": {
+        "name": "Walking, cycling, etc., surface",
+        "collapsed": false
+      },
+      "Road network, surface": {
+        "name": "Road network, surface",
+        "collapsed": false
+      },
+      "Walking, cycling, etc., barriers-bridges": {
+        "name": "Walking, cycling, etc., barriers-bridges",
+        "collapsed": false
+      },
+      "Road network, bridges": {
+        "name": "Road network, bridges",
+        "collapsed": false
+      },
+      "Administrative boundaries, admin": {
+        "name": "Administrative boundaries, admin",
+        "collapsed": false
+      },
+      "Road network, road-labels": {
+        "name": "Road network, road-labels",
+        "collapsed": false
+      },
+      "Walking, cycling, etc., walking-cycling-labels": {
+        "name": "Walking, cycling, etc., walking-cycling-labels",
+        "collapsed": false
+      },
+      "Natural features, natural-labels": {
+        "name": "Natural features, natural-labels",
+        "collapsed": false
+      },
+      "Point of interest labels, poi-labels": {
+        "name": "Point of interest labels, poi-labels",
+        "collapsed": false
+      },
+      "Transit, transit-labels": {
+        "name": "Transit, transit-labels",
+        "collapsed": false
+      },
+      "Place labels, place-labels": {
+        "name": "Place labels, place-labels",
+        "collapsed": false
+      }
+    },
+    "mapbox:decompiler": {
+      "id": "basic-v1",
+      "componentVersion": "9.0.0",
+      "strata": [
+        {
+          "id": "basic-v1",
+          "order": [
+            ["land-and-water", "land"],
+            ["land-and-water", "water"],
+            ["land-and-water", "built"],
+            ["transit", "built"],
+            ["buildings", "built"],
+            ["road-network", "tunnels-case"],
+            ["walking-cycling", "tunnels"],
+            ["road-network", "tunnels"],
+            ["transit", "ferries"],
+            ["walking-cycling", "surface"],
+            ["road-network", "surface"],
+            ["transit", "surface"],
+            ["road-network", "surface-icons"],
+            ["walking-cycling", "barriers-bridges"],
+            ["road-network", "bridges"],
+            ["transit", "bridges"],
+            ["road-network", "traffic-and-closures"],
+            ["buildings", "extruded"],
+            ["transit", "elevated"],
+            ["admin-boundaries", "admin"],
+            ["buildings", "building-labels"],
+            ["road-network", "road-labels"],
+            ["walking-cycling", "walking-cycling-labels"],
+            ["transit", "ferry-aerialway-labels"],
+            ["natural-features", "natural-labels"],
+            ["point-of-interest-labels", "poi-labels"],
+            ["transit", "transit-labels"],
+            ["place-labels", "place-labels"],
+            ["land-and-water", "sky"]
+          ]
+        }
+      ],
+      "components": {
+        "road-network": "9.0.0",
+        "natural-features": "9.0.0",
+        "place-labels": "9.0.0",
+        "admin-boundaries": "9.0.0",
+        "point-of-interest-labels": "9.0.0",
+        "walking-cycling": "9.0.0",
+        "transit": "9.0.0",
+        "land-and-water": "9.0.0",
+        "buildings": "9.0.0"
+      },
+      "propConfig": {
+        "road-network": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-road": "hsl(38, 55%, 100%)",
+          "roadNetwork": "Simple"
+        },
+        "natural-features": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-water": "hsl(205, 76%, 70%)",
+          "color-poi": "hsl(26, 20%, 38%)"
+        },
+        "place-labels": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-place-label": "hsl(0, 0%, 15%)",
+          "settlementSubdivisionsDensity": 3,
+          "settlementLabelStyle": "Text only"
+        },
+        "admin-boundaries": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-place-label": "hsl(0, 0%, 15%)"
+        },
+        "point-of-interest-labels": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-greenspace": "hsl(78, 50%, 73%)",
+          "color-greenspace-label": "hsl(76, 50%, 16%)",
+          "color-hospital": "hsl(3, 45%, 55%)",
+          "color-school": "hsl(40, 45%, 45%)",
+          "color-poi": "hsl(26, 20%, 38%)",
+          "density": 2
+        },
+        "walking-cycling": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-road": "hsl(38, 55%, 100%)",
+          "color-greenspace": "hsl(78, 50%, 73%)",
+          "color-greenspace-label": "hsl(76, 50%, 16%)",
+          "walkingCyclingPisteBackground": false,
+          "golfHoleLabelLine": false,
+          "pedestrianPolygonFeatures": false
+        },
+        "transit": {
+          "color-airport": "hsl(225, 4%, 40%)",
+          "color-transit": "hsl(345, 6%, 40%)",
+          "aerialways": false,
+          "color-road": "hsl(38, 55%, 100%)",
+          "color-water": "hsl(205, 76%, 70%)",
+          "transitLabels": false,
+          "railways": false,
+          "ferries": false,
+          "color-base": "hsl(40, 48%, 92%)"
+        },
+        "land-and-water": {
+          "color-airport": "hsl(225, 4%, 40%)",
+          "color-hospital": "hsl(3, 45%, 55%)",
+          "landType": "Landuse only",
+          "color-greenspace": "hsl(78, 50%, 73%)",
+          "color-water": "hsl(205, 76%, 70%)",
+          "transitionLandOnZoom": false,
+          "waterStyle": "Simple",
+          "color-base": "hsl(40, 48%, 92%)",
+          "color-school": "hsl(40, 45%, 45%)"
+        },
+        "buildings": {
+          "color-base": "hsl(40, 48%, 92%)",
+          "houseNumbers": false
+        }
+      }
+    }
+  },
+  "center": [-6.2564, 53.3538],
+  "zoom": 14,
+  "sources": {
+    "osm": {
+      "type": "vector",
+      "url": "http://localhost:23897/capabilities/osm.json"
+    }
+  },
+  "layers": [
+    {
+      "id": "land",
+      "type": "background",
+      "metadata": {
+        "mapbox:featureComponent": "land-and-water",
+        "mapbox:group": "Land, water, & sky, land"
+      },
+      "layout": {},
+      "paint": {"background-color": "hsl(40, 46%, 86%)"}
+    },
+    {
+      "id": "landuse",
+      "type": "fill",
+      "metadata": {
+        "mapbox:featureComponent": "land-and-water",
+        "mapbox:group": "Land, water, & sky, land"
+      },
+      "source": "osm",
+      "source-layer": "landuse_areas",
+      "minzoom": 5,
+      "filter": [
+        "match",
+        ["get", "class"],
+        ["park", "airport", "glacier", "pitch", "sand", "facility"],
+        true,
+        "cemetery",
+        true,
+        "school",
+        true,
+        "hospital",
+        true,
+        false
+      ],
+      "layout": {},
+      "paint": {
+        "fill-color": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          15,
+          [
+            "match",
+            ["get", "class"],
+            "park",
+            "hsl(78, 50%, 73%)",
+            "airport",
+            "hsl(225, 49%, 88%)",
+            "cemetery",
+            "hsl(60, 49%, 79%)",
+            "glacier",
+            "hsl(205, 66%, 90%)",
+            "hospital",
+            "hsl(3, 47%, 84%)",
+            "pitch",
+            "hsl(78, 51%, 68%)",
+            "sand",
+            "hsl(43, 50%, 83%)",
+            "school",
+            "hsl(40, 47%, 78%)",
+            "hsl(40, 49%, 82%)"
+          ],
+          16,
+          [
+            "match",
+            ["get", "class"],
+            "park",
+            "hsl(78, 50%, 73%)",
+            "airport",
+            "hsl(225, 63%, 86%)",
+            "cemetery",
+            "hsl(60, 49%, 79%)",
+            "glacier",
+            "hsl(205, 66%, 90%)",
+            "hospital",
+            "hsl(3, 46%, 86%)",
+            "pitch",
+            "hsl(78, 51%, 68%)",
+            "sand",
+            "hsl(43, 50%, 83%)",
+            "school",
+            "hsl(40, 47%, 78%)",
+            "hsl(40, 49%, 82%)"
+          ]
+        ],
+        "fill-opacity": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          5,
+          0,
+          6,
+          ["match", ["get", "class"], "glacier", 0.5, 1]
+        ]
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "metadata": {
+        "mapbox:featureComponent": "land-and-water",
+        "mapbox:group": "Land, water, & sky, water"
+      },
+      "source": "osm",
+      "source-layer": "water_lines",
+      "minzoom": 8,
+      "layout": {
+        "line-cap": ["step", ["zoom"], "butt", 11, "round"],
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "hsl(205, 76%, 70%)",
+        "line-width": [
+          "interpolate",
+          ["exponential", 1.3],
+          ["zoom"],
+          9,
+          ["match", ["get", "class"], ["canal", "river"], 0.1, 0],
+          20,
+          ["match", ["get", "class"], ["canal", "river"], 8, 3]
+        ],
+        "line-opacity": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          8,
+          0,
+          8.5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "metadata": {
+        "mapbox:featureComponent": "land-and-water",
+        "mapbox:group": "Land, water, & sky, water"
+      },
+      "source": "osm",
+      "source-layer": "water_areas",
+      "layout": {},
+      "paint": {"fill-color": "hsl(205, 76%, 70%)"}
+    },
+    {
+      "id": "building-outline",
+      "type": "line",
+      "metadata": {
+        "mapbox:featureComponent": "buildings",
+        "mapbox:group": "Buildings, built"
+      },
+      "source": "osm",
+      "source-layer": "buildings",
+      "minzoom": 14,
+      "filter": [
+        "all"
+      ],
+      "layout": {},
+      "paint": {
+        "line-color": "hsl(40, 42%, 77%)",
+        "line-width": [
+          "interpolate",
+          ["exponential", 1.5],
+          ["zoom"],
+          14,
+          0.75,
+          20,
+          3
+        ],
+        "line-opacity": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14,
+          0,
+          15,
+          1
+        ]
+      }
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "metadata": {
+        "mapbox:featureComponent": "buildings",
+        "mapbox:group": "Buildings, built"
+      },
+      "source": "osm",
+      "source-layer": "buildings",
+      "minzoom": 14,
+      "filter": [
+        "all"
+      ],
+      "layout": {},
+      "paint": {
+        "fill-color": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14,
+          "hsl(40, 45%, 83%)",
+          15,
+          "hsl(40, 41%, 82%)"
+        ],
+        "fill-opacity": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14,
+          0,
+          15,
+          1
+        ],
+        "fill-outline-color": "hsl(40, 42%, 77%)"
+      }
+    },
+    {
+      "id": "road-simple",
+      "type": "line",
+      "metadata": {
+        "mapbox:featureComponent": "road-network",
+        "mapbox:group": "Road network, tunnels"
+      },
+      "source": "osm",
+      "source-layer": "transport_lines",
+      "minzoom": 13,
+      "filter": [
+        "all"
+      ],
+      "layout": {},
+      "paint": {
+        "line-width": [
+          "interpolate",
+          ["exponential", 1.5],
+          ["zoom"],
+          14,
+          1,
+          18,
+          4
+        ],
+        "line-color": "hsl(40, 42%, 77%)",
+        "line-dasharray": [
+          "step",
+          ["zoom"],
+          ["literal", [1, 0]],
+          15,
+          ["literal", [1.75, 1]],
+          16,
+          ["literal", [1, 0.75]],
+          17,
+          ["literal", [1, 0.5]]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+    <string name="app_name">Wayfinding</string>
+    <string name="logcat_service_channel_name">Logcat service</string>
+    <string name="exit">Exit</string>
+    <string name="logcat_service">Logcat service</string>
+    <string name="logcat">Logcat</string>
+    <string name="search">Search</string>
+    <string name="pause">Pause</string>
+    <string name="clear">Clear</string>
+    <string name="resume">Resume</string>
+    <string name="restart_logcat">Restart logcat</string>
+    <string name="stop_logcat">Stop logcat</string>
+    <string name="copy_to_clipboard">Copy To Clipboard</string>
+    <string name="copied_to_clipboard">Copied</string>
+    <string name="tag">Tag</string>
+    <string name="message">Message</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="process_id" translatable="false">PID</string>
+    <string name="thread_id" translatable="false">TID</string>
+    <string name="open_source_licences">Open-source licences</string>
+</resources>

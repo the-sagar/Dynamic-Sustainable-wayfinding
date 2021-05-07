@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bluetoothP2P</string>
+    <string name="ble_not_supported">Bluetooth BLE not supported with this device!</string>
+    <string name="bt_not_supported">Bluetooth not supported with this device!</string>
+</resources>

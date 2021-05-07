@@ -1,0 +1,83 @@
+syntax = "proto3";
+package rpc;
+option  go_package = "github.com/xiaokangwang/osmRoute/rpc";
+option java_package = "ie.tcd.cs7cs3.wayfinding.server.rpc";
+option java_multiple_files = true;
+
+message ObjectResolveRequest {
+  string FeatureID = 1;
+  bool SkipIfNotCached = 2;
+}
+
+message ReturnedObject {
+  string FeatureID = 1;
+  bytes ObjectContent = 2;
+  bool Found = 3;
+}
+
+message ScanRegionRequest {
+  double Lat = 1;
+  double Lon = 2;
+}
+
+message LocationAssociation {
+  ObjectList Nodes = 3;
+  double Lat = 1;
+  double Lon = 2;
+}
+
+message GetAssociatedObjectRequest {
+  string FeatureID = 1;
+}
+
+message ObjectList {
+  repeated string FeatureID = 1;
+}
+
+message ObjectListWithAssociatedObjects {
+  repeated string FeatureID = 1;
+  map<string, ObjectList> FeatureIDAndAssociatedObjects = 2;
+  repeated LocationAssociation LocationAssociation = 3;
+}
+
+message NameList {
+  repeated string ObjectName = 1;
+}
+
+message NameSearch {
+  string Keyword = 1;
+}
+
+message RoutingDecision {
+  map<string, string> AssociatedData = 1;
+  string Via = 2;
+  string From = 3;
+}
+
+message RoutingDecisionResp {
+  repeated RoutingDecision Hops = 1;
+  int32 code = 2;
+  string msg = 3;
+}
+
+message RoutingDecisionReq {
+  RoutingDecisionReqLocation From = 1;
+  RoutingDecisionReqLocation To = 2;
+
+  map<string, string> AdditionalInfo = 3;
+}
+
+
+message RoutingDecisionReqLocation {
+  double Lat = 1;
+  double Lon = 2;
+}
+
+service RouteService {
+  rpc Resolve(ObjectResolveRequest) returns (ReturnedObject) {}
+  rpc ScanRegion(ScanRegionRequest) returns (ObjectListWithAssociatedObjects) {}
+  rpc GetAssociatedObject(GetAssociatedObjectRequest) returns (ObjectList) {}
+  rpc SearchByNamePrefix(NameSearch) returns (NameList) {}
+  rpc SearchByNameExact(NameSearch) returns (ObjectList) {}
+  rpc Route(RoutingDecisionReq) returns (RoutingDecisionResp) {}
+}

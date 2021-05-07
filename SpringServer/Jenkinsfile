@@ -1,0 +1,76 @@
+pipeline {
+  agent any
+  environment {
+    //Custom docker path
+    PATH = "/usr/local/bin/:$PATH"
+  }
+  tools {
+    maven 'Maven-jenkins'
+    jdk 'Jenkins-jdk'
+    go 'GO'
+    nodejs "Node"
+  }
+  stages {
+    stage('Update Submodules') {
+      steps {
+            sh 'git submodule init'
+            sh 'git submodule sync'
+            sh 'git submodule update'
+      }
+    }
+    
+    stage('Build RoutingBackend') {
+      steps {
+        sh './build_routing.sh'
+      }
+    }
+    stage('Build AdminPanel') {
+      steps {
+        sh './build_admPanel.sh'
+      }
+    }
+
+    stage('Code Quality Check') {
+      environment {
+          scannerHome = tool 'SonarQubeScanner'
+      }
+      steps {
+          withSonarQubeEnv('SonarQube') {
+
+              sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=ASE -Dsonar.java.binaries=./"
+          }
+          timeout(time: 2, unit: 'MINUTES') {
+              waitForQualityGate abortPipeline: true
+          }
+      }
+    }
+    stage('Build SpringServer') {
+      steps {
+        sh 'mvn clean install -DskipTests=true'
+      }
+    }
+    
+    stage('Testing Components') {
+        steps{
+            echo 'Testing to be added'
+        }
+    }
+
+    stage('Deploy in Docker') {
+      steps {
+        sh 'docker rm -f mvn-spring-1'
+        sh 'docker rmi -f mvn-spring'
+        sh 'docker build -t mvn-spring .'
+        sh 'docker container run -d -p 8090:8090 -v /var/run/docker.sock:/var/run/docker.sock --name mvn-spring-1 mvn-spring'
+      }
+    }
+
+  }
+  
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '5'))
+  }
+  triggers {
+    pollSCM('* * * * *')
+  }
+}

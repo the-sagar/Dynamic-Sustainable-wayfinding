@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjectApplication<server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "ie.tcd.cs7cs3.wayfinding.server.ProjectApplication",
+            "projectName": "server",
+            "args": ""
+        }
+    ]
+}

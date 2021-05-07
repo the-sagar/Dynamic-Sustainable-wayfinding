@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LogcatReader -->
+    <string name="define_plu_LogcatReader">year;owner</string>
+    <string name="library_LogcatReader_author">Darshan Parajuli</string>
+    <string name="library_LogcatReader_libraryName">LogcatReader</string>
+    <string name="library_LogcatReader_libraryDescription">A simple app for viewing logs on an android device.</string>
+    <string name="library_LogcatReader_libraryVersion">1.7.1</string>
+    <string name="library_LogcatReader_libraryWebsite">https://github.com/darshanparajuli/LogcatReader</string>
+    <!-- you can also reference custom licenses here e.g. myLicense -->
+    <string name="library_LogcatReader_licenseIds">MIT</string>
+    <string name="library_LogcatReader_isOpenSource">true</string>
+    <string name="library_LogcatReader_repositoryLink">https://github.com/darshanparajuli/LogcatReader</string>
+    <!-- Custom variables section -->
+    <string name="library_LogcatReader_owner">Darshan Parajuli</string>
+    <string name="library_LogcatReader_year">2020</string>
+
+    <!-- Tegola -->
+    <string name="define_plu_Tegola">year;owner</string>
+    <string name="library_Tegola_author">go-spatial</string>
+    <string name="library_Tegola_libraryName">Tegola</string>
+    <string name="library_Tegola_libraryDescription">Tegola is a vector tile server delivering Mapbox Vector Tiles with support for PostGIS and GeoPackage data providers. User documentation can be found at tegola.io.</string>
+    <string name="library_Tegola_libraryVersion">0.12.1</string>
+    <string name="library_Tegola_libraryWebsite">https://github.com/go-spatial/tegola</string>
+    <!-- you can also reference custom licenses here e.g. myLicense -->
+    <string name="library_Tegola_licenseIds">MIT</string>
+    <string name="library_Tegola_isOpenSource">true</string>
+    <string name="library_Tegola_repositoryLink">https://github.com/go-spatial/tegola</string>
+    <!-- Custom variables section -->
+    <string name="library_Tegola_owner">go-spatial</string>
+    <string name="library_Tegola_year">2020</string>
+
+    <!-- TegolaMobile -->
+    <string name="define_plu_TegolaMobile">year;owner</string>
+    <string name="library_TegolaMobile_author">Steven Contreras</string>
+    <string name="library_TegolaMobile_libraryName">Tegola Mobile</string>
+    <string name="library_TegolaMobile_libraryDescription">Tegola Mobile is a port of tegola (https://github.com/go-spatial/tegola) - a shell-based high performance vector tile server delivering Mapbox Vector Tiles leveraging PostGIS as the data provider - to non-rooted Android devices.</string>
+    <string name="library_TegolaMobile_libraryVersion">1.3.3</string>
+    <string name="library_TegolaMobile_libraryWebsite">https://github.com/go-spatial/tegola-mobile</string>
+    <!-- you can also reference custom licenses here e.g. myLicense -->
+    <string name="library_TegolaMobile_licenseIds">MIT</string>
+    <string name="library_TegolaMobile_isOpenSource">true</string>
+    <string name="library_TegolaMobile_repositoryLink">https://github.com/go-spatial/tegola-mobile</string>
+    <!-- Custom variables section -->
+    <string name="library_TegolaMobile_owner">Steven Contreras</string>
+    <string name="library_TegolaMobile_year">2016</string>
+
+</resources>

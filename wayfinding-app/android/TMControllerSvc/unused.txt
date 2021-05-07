@@ -1,0 +1,252 @@
+com.github.tegola.mobile.controller.utils.SysUtil
+    public void <init>()
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$PURPOSE
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$StageHandlerOnChunkRead_GeneralIOException
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$CallableTaskException
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$Task$ChunkedResponseBody
+com.github.tegola.mobile.controller.ClientAPI$Client$ControllerNotificationsBroadcastReceiver
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$CONFIG$PATH
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS$COMMAND$START
+com.github.tegola.mobile.controller.Constants$Strings$SIG_NAME
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDERR$OUTPUT$EXTRA_KEY
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$Task$1
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDOUT
+com.github.tegola.mobile.controller.BuildConfig
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS$STATE$STOPPING
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$RUNNING
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$PURPOSE$VALUE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$STOPPED
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS$STATE$STARTING
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS$STATE
+com.github.tegola.mobile.controller.Constants
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskExecuteQueueListener
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$START_FAILED$EXTRA_KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$STARTING
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$STATE$LISTEN_PORT
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$STOPPING
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskExecuteQueueItemExecutor
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED$EXTRA_KEY$REASON
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY$ROOT_URL
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$RUNNING$EXTRA_KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$LISTENING$EXTRA_KEY
+com.github.tegola.mobile.controller.ClientAPI$Client$ControllerNotificationsBroadcastReceiver$1
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS$STATE$STOPPED
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED$EXTRA_KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$LOGCAT$OUTPUT
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$RemoteFile_SizeException
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS$COMMAND$START$EXTRA_KEY$HARNESS_CLASS_NAME
+com.github.tegola.mobile.controller.Constants$Enums$SIGNAL
+    public static final com.github.tegola.mobile.controller.Constants$Enums$SIGNAL fromString(java.lang.String)
+    public final java.lang.String description()
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$StageHandlerOnChunkRead_LocalFileCreateException
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$CONTENT
+com.github.tegola.mobile.controller.utils.Files$F_PUBLIC_ROOT_DIR
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$ROOT_URL
+com.github.tegola.mobile.controller.utils.DoNotOptimize
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$LISTENING$EXTRA_KEY$PORT
+com.github.tegola.mobile.controller.Constants$Enums$TEGOLA_ARG
+    public static final com.github.tegola.mobile.controller.Constants$Enums$TEGOLA_ARG fromString(java.lang.String)
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$FGS$STATE$RUNNING
+com.github.tegola.mobile.controller.FGS
+    private void deleteNotificationChannel()
+    private void fgs_asn__update(java.lang.String,java.lang.String)
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY$ENDPOINT
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$LOGCAT$OUTPUT$EXTRA_KEY$LINE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskStageHandler
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$StageHandlerOnChunkRead_LocalFileAlreadyExistsException
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED$EXTRA_KEY$PURPOSE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$CONFIG
+com.github.tegola.mobile.controller.Constants$Strings$CPU_ABI
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$RemoteFileInvalidParameterException
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$RUNNING$EXTRA_KEY$PID
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDERR
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$PROVIDER$GPKG
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION
+com.github.tegola.mobile.controller.ClientAPI$1
+com.github.tegola.mobile.controller.Constants$ASNB_NOTIFICATIONS
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskExecuteQueue
+com.github.tegola.mobile.controller.Constants$Strings$GPKG_BUNDLE$VERSION_PROPS$PROP
+com.github.tegola.mobile.controller.utils.Files$TM_APP_FILE_TYPE
+com.github.tegola.mobile.controller.Constants$Enums$E_INTENT_ACTION__NOTIFICATION
+    public static final com.github.tegola.mobile.controller.Constants$Enums$E_INTENT_ACTION__NOTIFICATION fromString(java.lang.String)
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS$COMMAND
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY
+com.github.tegola.mobile.controller.TEGOLA_BIN
+    public final java.lang.String getF_tegola_version()
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START
+com.github.tegola.mobile.controller.Constants$Strings$GPKG_BUNDLE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY$PURPOSE
+com.github.tegola.mobile.controller.Constants$Strings$TEGOLA_PROCESS
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskExecuteQueueItem
+com.github.tegola.mobile.controller.ClientAPI$ControllerNotificationsListener
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API
+com.github.tegola.mobile.controller.Exceptions
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$ENDPOINT
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$START_FAILED
+com.github.tegola.mobile.controller.ClientAPI
+com.github.tegola.mobile.controller.Exceptions$InvalidTegolaArgumentException
+    public void <init>(java.lang.String)
+com.github.tegola.mobile.controller.Constants$Strings
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$PROVIDER$GPKG$BUNDLE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$PROVIDER
+com.github.tegola.mobile.controller.ClientAPI$Client
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$Task$ChunkedResponseBody$1
+com.github.tegola.mobile.controller.utils.Files$CopyResult
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED$EXTRA_KEY$ROOT_URL
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$CONFIG$REMOTE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$ExecutorService
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$HttpUrl_To_Local_File
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS$COMMAND$START$EXTRA_KEY
+com.github.tegola.mobile.controller.Exceptions$NativeSignalException
+    public void <init>(java.lang.String)
+com.github.tegola.mobile.controller.utils.HTTP
+    private static javax.net.ssl.X509TrustManager newX509TrustManagerBypass()
+    static synthetic okhttp3.OkHttpClient$Builder access$500()
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$STATE$IS_RUNNING
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDERR$OUTPUT
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDERR$OUTPUT$EXTRA_KEY$LINE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON
+com.github.tegola.mobile.controller.Constants$Strings$SIG_DESC
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDOUT$OUTPUT
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY$PURPOSE$VALUE$LOAD_MAP
+com.github.tegola.mobile.controller.Constants$Strings$INTENT
+com.github.tegola.mobile.controller.Constants$Strings$TEGOLA_PROCESS$TILE_CACHE$FILE
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$Task
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$STOP
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY$PROVIDER$GPKG$BUNDLE$PROPS
+com.github.tegola.mobile.controller.Constants$Strings$TEGOLA_ARG
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$CallableTask
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GET_JSON_FAILED$EXTRA_KEY$ENDPOINT
+com.github.tegola.mobile.controller.Constants$Enums$TEGOLA_CONFIG_TYPE
+com.github.tegola.mobile.controller.GPKG
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$START_FAILED$EXTRA_KEY$REASON
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$STATE$LISTENING
+com.github.tegola.mobile.controller.Constants$Strings$GPKG_BUNDLE$VERSION_PROPS
+com.github.tegola.mobile.controller.utils.Files
+    public static java.lang.String getAssetPropsFileProperty(android.content.Context,java.lang.String,java.lang.String)
+    public static com.github.tegola.mobile.controller.utils.Files$CopyResult copy(java.io.InputStream,java.io.OutputStream)
+    public static com.github.tegola.mobile.controller.utils.Files$CopyResult copy(java.io.File,java.io.File)
+    public static com.github.tegola.mobile.controller.utils.Files$CopyResult copy_raw_res_to_app_file(android.content.Context,int,java.lang.String,com.github.tegola.mobile.controller.utils.Files$TM_APP_FILE_TYPE)
+    public static long folderSize(java.io.File)
+    private static void delete(java.io.File,int)
+    public static void delete(java.io.File)
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDOUT$OUTPUT$EXTRA_KEY$LINE
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$LOGCAT$OUTPUT$EXTRA_KEY
+com.github.tegola.mobile.controller.utils.Files$1
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$CONTROL$START$EXTRA__KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$FGS$COMMAND$STOP
+com.github.tegola.mobile.controller.Constants$Strings$TEGOLA_PROCESS$TILE_CACHE
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$TaskExecuteQueueException
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$HTTP_URL_API$GOT_JSON$EXTRA_KEY$PURPOSE$VALUE$LOAD_MAP
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$STATE
+com.github.tegola.mobile.controller.utils.HTTP$AsyncGet$ExecutorService$DownloadQueueObserver
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$REQUEST$MVT_SERVER$REST_API$GET_JSON$EXTRA_KEY$PURPOSE$VALUE
+com.github.tegola.mobile.controller.Constants$Enums
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$STDOUT$OUTPUT$EXTRA_KEY
+com.github.tegola.mobile.controller.Constants$Strings$INTENT$ACTION$NOTIFICATION$MVT_SERVER$MONITOR$LOGCAT
+com.github.tegola.mobile.controller.utils.HTTP$1
+    void <init>()
+    public void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
+    public void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+    public java.security.cert.X509Certificate[] getAcceptedIssuers()
+    private final java.lang.String TAG
+com.github.tegola.mobile.controller.GPKG$F_GPKG_BUNDLE_ROOT_DIR
+    public void <init>(android.content.Context)
+    public static final synthetic com.github.tegola.mobile.controller.GPKG$F_GPKG_BUNDLE_ROOT_DIR access$getM_this$cp()
+    public static final synthetic void access$setM_this$cp(com.github.tegola.mobile.controller.GPKG$F_GPKG_BUNDLE_ROOT_DIR)
+com.github.tegola.mobile.controller.Constants$Enums$E_INTENT_ACTION__NOTIFICATION
+com.github.tegola.mobile.controller.TEGOLA_BIN
+    public void <init>(android.content.Context)
+    public static final synthetic com.github.tegola.mobile.controller.TEGOLA_BIN access$getM_this$cp()
+    public static final synthetic void access$setM_this$cp(com.github.tegola.mobile.controller.TEGOLA_BIN)
+    public static final com.github.tegola.mobile.controller.TEGOLA_BIN getInstance(android.content.Context)
+    public final java.io.File getF_tegola_bin()
+    public java.lang.String f_tegola_version
+com.github.tegola.mobile.controller.FGS$TegolaJSON
+    public void <init>(com.github.tegola.mobile.controller.FGS)
+    public final synthetic com.github.tegola.mobile.controller.FGS this$0
+com.github.tegola.mobile.controller.utils.HTTP$2
+com.github.tegola.mobile.controller.FGS$MVT_SERVER_START_SPEC__POSTGIS_PROVIDER
+    public final java.lang.String config_toml
+com.github.tegola.mobile.controller.Exceptions$InvalidTegolaArgumentException
+com.github.tegola.mobile.controller.Constants$Enums$CPU_ABI
+    public static final com.github.tegola.mobile.controller.Constants$Enums$CPU_ABI fromString(java.lang.String)
+    public static synthetic com.github.tegola.mobile.controller.Constants$Enums$CPU_ABI[] $values()
+com.github.tegola.mobile.controller.Constants$1
+com.github.tegola.mobile.controller.Constants$Enums$E_INTENT_ACTION__REQUEST
+    public static synthetic com.github.tegola.mobile.controller.Constants$Enums$E_INTENT_ACTION__REQUEST[] $values()
+com.github.tegola.mobile.controller.utils.SysUtil$Companion$MarshmallowSysdeps
+com.github.tegola.mobile.controller.utils.HTTP
+    public void <init>()
+    public static okhttp3.Dispatcher newDefaultDispatcher()
+    public static javax.net.ssl.X509TrustManager newDefaultX509TrustManager()
+    public static com.github.tegola.mobile.controller.utils.HTTP$SSLConfig newSSLConfig(java.lang.String,javax.net.ssl.KeyManager[],javax.net.ssl.TrustManager[],java.security.SecureRandom)
+    public static com.github.tegola.mobile.controller.utils.HTTP$SSLConfig newSSLConfig(java.lang.String)
+    public static javax.net.ssl.HostnameVerifier newDefaultHostnameVerifier()
+    public static okhttp3.OkHttpClient$Builder newDefaultHttpClientBuilder(boolean)
+    public static okhttp3.OkHttpClient$Builder newDefaultHttpClientBuilder()
+    public static okhttp3.OkHttpClient newDefaultHttpClient()
+    public static void <clinit>()
+    public static final java.lang.String TAG
+com.github.tegola.mobile.controller.utils.Files$F_LIBS_DIR
+    public static com.github.tegola.mobile.controller.utils.Files$F_LIBS_DIR getInstance(android.content.Context)
+    public static void <clinit>()
+com.github.tegola.mobile.controller.FGS$4
+com.github.tegola.mobile.controller.TEGOLA_BIN$Companion
+    public void <init>()
+com.github.tegola.mobile.controller.utils.SysUtil$Companion
+    public void <init>()
+com.github.tegola.mobile.controller.FGS$MVT_SERVER_START_SPEC
+    public void <init>(boolean,boolean)
+    public final boolean provider__is_gpkg
+    public final boolean config_toml__is_remote
+com.github.tegola.mobile.controller.utils.HTTP$4
+com.github.tegola.mobile.controller.utils.HTTP$SSLConfig
+com.github.tegola.mobile.controller.Constants$Enums$SIGNAL
+com.github.tegola.mobile.controller.utils.HTTP$Get$ContentHandler
+    public abstract void onStartRead(long)
+    public abstract void onChunkRead(int,byte[])
+    public abstract void onReadError(long,java.lang.Exception)
+    public abstract void onReadComplete(long,long)
+com.github.tegola.mobile.controller.utils.Files
+    public void <init>()
+    public static void <clinit>()
+    public static final java.lang.String TAG
+com.github.tegola.mobile.controller.FGS$UnknownMVTServerStartSpecType
+    public final synthetic com.github.tegola.mobile.controller.FGS this$0
+com.github.tegola.mobile.controller.GPKG$F_GPKG_BUNDLE_ROOT_DIR$Companion
+    public void <init>()
+com.github.tegola.mobile.controller.Constants$Enums$TEGOLA_ARG
+com.github.tegola.mobile.controller.FGS
+    public static synthetic java.lang.String access$000()
+    public static synthetic void access$100(com.github.tegola.mobile.controller.FGS,com.github.tegola.mobile.controller.FGS$MVT_SERVER_START_SPEC)
+    public static synthetic java.lang.Integer access$200(com.github.tegola.mobile.controller.FGS)
+    public static synthetic void access$300(com.github.tegola.mobile.controller.FGS,java.lang.String,java.lang.String,java.lang.String)
+    public static synthetic boolean access$400(com.github.tegola.mobile.controller.FGS)
+    public static synthetic java.lang.Process access$500(com.github.tegola.mobile.controller.FGS)
+    public static synthetic java.lang.Thread access$600(com.github.tegola.mobile.controller.FGS)
+    public static synthetic java.lang.Integer access$700(com.github.tegola.mobile.controller.FGS)
+    public static synthetic void access$800(com.github.tegola.mobile.controller.FGS,java.lang.String)
+    public static synthetic java.lang.Process access$1000(com.github.tegola.mobile.controller.FGS)
+    public final java.lang.String getNotificationChannelId()
+    public final void createNotificationChannel()
+    public final void init()
+com.github.tegola.mobile.controller.utils.HTTP$Get
+    public void <init>()
+    public static void <clinit>()
+    public static final java.lang.String TAG
+com.github.tegola.mobile.controller.utils.HTTP$1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="log_content_types">
+        <item>@string/tag</item>
+        <item>@string/message</item>
+        <item>@string/date</item>
+        <item>@string/time</item>
+        <item>@string/process_id</item>
+        <item>@string/thread_id</item>
+    </string-array>
+</resources>

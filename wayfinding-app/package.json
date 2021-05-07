@@ -1,0 +1,157 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "test": "jest",
+    "gen:protocol": "rm -rf src/services/gen-proto/*; protoc --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts --js_out=import_style=commonjs,binary:src/services/gen-proto --ts_out=service=grpc-web:src/services/gen-proto -I src/services/api src/services/api/*.proto",
+    "gen:license": "react-native-oss-license --format about-libraries"
+  },
+  "dependencies": {
+    "@formatjs/intl-datetimeformat": "^3.2.12",
+    "@formatjs/intl-displaynames": "^4.0.10",
+    "@formatjs/intl-getcanonicallocales": "^1.5.6",
+    "@formatjs/intl-listformat": "^5.0.10",
+    "@formatjs/intl-locale": "^2.4.19",
+    "@formatjs/intl-numberformat": "^6.2.2",
+    "@formatjs/intl-pluralrules": "^4.0.11",
+    "@formatjs/intl-relativetimeformat": "^8.1.2",
+    "@improbable-eng/grpc-web": "^0.13.0",
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-mapbox-gl/maps": "^8.2.0-beta1",
+    "@react-navigation/native": "^5.9.0",
+    "@react-navigation/stack": "^5.13.0",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@types/base-64": "^0.1.3",
+    "@types/react-native-video": "^5.0.4",
+    "axios": "^0.21.1",
+    "barycentric": "^1.0.1",
+    "base-64": "^1.0.0",
+    "expo": "~40.0.0",
+    "expo-crypto": "^9.0.0",
+    "expo-gl": "^10.1.0",
+    "expo-location": "^12.0.4",
+    "expo-notifications": "^0.11.6",
+    "expo-splash-screen": "~0.8.0",
+    "expo-status-bar": "~1.0.3",
+    "expo-three": "^5.6.2",
+    "expo-updates": "~0.4.0",
+    "google-protobuf": "^3.14.0",
+    "highlight-words-core": "^1.2.2",
+    "moment": "^2.29.1",
+    "protobufjs": "^6.10.2",
+    "react": "^16.13.1",
+    "react-axios": "^2.0.4",
+    "react-dom": "^16.13.1",
+    "react-native": "~0.64.0",
+    "react-native-appearance": "^0.3.4",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-localize": "^2.0.2",
+    "react-native-paper": "^4.7.2",
+    "react-native-paper-dates": "^0.4.1",
+    "react-native-paper-dropdown": "^0.0.5",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "~2.15.0",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-video": "^5.1.1",
+    "react-native-web": "~0.13.12",
+    "react-promise-suspense": "^0.3.3",
+    "react-redux": "^7.2.2",
+    "react-three-fiber": "^5.0.0-beta.12",
+    "redux": "^4.0.5",
+    "redux-injectors": "^1.3.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.2.1",
+    "tailwind-rn": "^3.0.0",
+    "three": "~0.125.2",
+    "troika-three-text": "^0.40.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.13.0",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@testing-library/jest-native": "^3.4.3",
+    "@testing-library/react-native": "^7.1.0",
+    "@types/geojson": "^7946.0.7",
+    "@types/google-protobuf": "^3.7.4",
+    "@types/jest": "^26.0.20",
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "0.63.40",
+    "@types/react-native-dotenv": "^0.2.0",
+    "@types/react-redux": "^7.1.15",
+    "@types/redux-logger": "^3.0.8",
+    "@types/styled-components": "^5.1.7",
+    "@types/styled-components-react-native": "^5.1.0",
+    "babel-jest": "~25.2.6",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-expo": "~8.3.0",
+    "commitizen": "^4.2.3",
+    "husky": "^4.3.8",
+    "jest": "~26.6.3",
+    "jest-expo": "^40.0.2",
+    "react-is": "^16.13.1",
+    "react-native-dotenv": "^2.5.0",
+    "react-native-oss-license": "^0.1.3",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.5.1",
+    "ts-protoc-gen": "^0.14.0",
+    "typescript": "~4.0.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+    },
+    "setupFiles": [
+      "./jest.setup.js",
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ],
+    "timers": "fake",
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?(@react-native|react-native)|react-(native|universal|navigation)-(.*)|@react-native-community/(.*)|@react-navigation/(.*)|bs-platform|(@[a-zA-Z]+/)?(bs|reason|rescript)-(.*)+)"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "private": true,
+  "name": "wayfinding-app",
+  "version": "1.0.0"
+}

@@ -1,0 +1,256 @@
+[webserver]
+port = "%%%LISTEN_PORT%%%"
+
+[webserver.headers]
+  Access-Control-Allow-Origin = "*"
+  Cache-Control = "no-cache, no-store, must-revalidate"
+
+[cache]
+type = "file"
+basepath = "%%%CACHE_PATH%%%"
+
+[[providers]]
+name = "osm"
+type = "gpkg"
+filepath = "%%%GPKG_PATH%%%"
+
+    # Water
+    [[providers.layers]]
+    name = "water_areas"
+    tablename = "osm_water_areas"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "water_areas_gen0"
+    tablename = "osm_water_areas_gen0"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "water_areas_gen1"
+    tablename = "osm_water_areas_gen1"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "water_lines"
+    tablename = "osm_water_lines"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "water_lines_gen0"
+    tablename = "osm_water_lines_gen0"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "water_lines_gen1"
+    tablename = "osm_water_lines_gen1"
+    id_fieldname = "fid"
+
+    # Land Use
+    [[providers.layers]]
+    name = "landuse_areas"
+    tablename = "osm_landuse_areas"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "landuse_areas_gen0"
+    tablename = "osm_landuse_areas_gen0"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "landuse_areas_gen1"
+    tablename = "osm_landuse_areas_gen1"
+    id_fieldname = "fid"
+
+    # Transport
+    [[providers.layers]]
+    name = "transport_points"
+    tablename = "osm_transport_points"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "transport_areas"
+    tablename = "osm_transport_areas"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "transport_lines_gen0"
+    tablename = "osm_transport_lines_gen0"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "transport_lines_gen1"
+    tablename = "osm_transport_lines_gen1"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "transport_lines"
+    tablename = "osm_transport_lines"
+    id_fieldname = "fid"
+
+    # Amenities
+    [[providers.layers]]
+    name = "amenity_areas"
+    tablename = "osm_amenity_areas"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "amenity_points"
+    tablename = "osm_amenity_points"
+    id_fieldname = "fid"
+
+    # Other (Man Made, Historic, Military, Power, Barrier etc)
+    [[providers.layers]]
+    name = "other_points"
+    tablename = "osm_other_points"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "other_lines"
+    tablename = "osm_other_lines"
+    id_fieldname = "fid"
+
+    [[providers.layers]]
+    name = "other_areas"
+    tablename = "osm_other_areas"
+    id_fieldname = "fid"
+
+    # Buildings
+    [[providers.layers]]
+    name = "buildings"
+    tablename = "osm_buildings"
+    id_fieldname = "fid"
+
+[[maps]]
+name = "osm"
+attribution = "OpenStreetMap" # map attribution
+center = [-6.2564454, 53.3537673, 11.0] # optional center value. part of the TileJSON spec
+
+    # Land Use
+    [[maps.layers]]
+    name = "landuse_areas"
+    provider_layer = "osm.landuse_areas_gen0"
+    min_zoom = 3
+    max_zoom = 9
+
+    [[maps.layers]]
+    name = "landuse_areas"
+    provider_layer = "osm.landuse_areas_gen1"
+    min_zoom = 10
+    max_zoom = 12
+
+    [[maps.layers]]
+    name = "landuse_areas"
+    provider_layer = "osm.landuse_areas"
+    min_zoom = 13
+    max_zoom = 20
+
+    # Water Areas
+    [[maps.layers]]
+    name = "water_areas"
+    provider_layer = "osm.water_areas_gen0"
+    min_zoom = 3
+    max_zoom = 9
+
+    [[maps.layers]]
+    name = "water_areas"
+    provider_layer = "osm.water_areas_gen1"
+    min_zoom = 10
+    max_zoom = 12
+
+    [[maps.layers]]
+    name = "water_areas"
+    provider_layer = "osm.water_areas"
+    min_zoom = 13
+    max_zoom = 20
+
+    # Water Lines
+    [[maps.layers]]
+    name = "water_lines"
+    provider_layer = "osm.water_lines_gen0"
+    min_zoom = 8
+    max_zoom = 12
+
+    [[maps.layers]]
+    name = "water_lines"
+    provider_layer = "osm.water_lines_gen1"
+    min_zoom = 13
+    max_zoom = 14
+
+    [[maps.layers]]
+    name = "water_lines"
+    provider_layer = "osm.water_lines"
+    min_zoom = 15
+    max_zoom = 20
+
+    [[maps.layers]]
+    name = "transport_lines"
+    provider_layer = "osm.transport_lines_gen0"
+    min_zoom = 7
+    max_zoom = 8
+
+    [[maps.layers]]
+    name = "transport_lines"
+    provider_layer = "osm.transport_lines_gen1"
+    min_zoom = 9
+    max_zoom = 10
+
+    [[maps.layers]]
+    name = "transport_lines"
+    provider_layer = "osm.transport_lines"
+    min_zoom = 12
+    max_zoom = 20
+
+    # Transport Areas
+    [[maps.layers]]
+    name = "transport_areas"
+    provider_layer = "osm.transport_areas"
+    min_zoom = 12
+    max_zoom = 20
+
+    # Transport Points
+    [[maps.layers]]
+    name = "transport_points"
+    provider_layer = "osm.transport_points"
+    min_zoom = 14
+    max_zoom = 20
+
+    # Amenity Areas
+    [[maps.layers]]
+    name = "amenity_areas"
+    provider_layer = "osm.amenity_areas"
+    min_zoom = 14
+    max_zoom = 20
+
+    # Amenity Points
+    [[maps.layers]]
+    name = "amenity_points"
+    provider_layer = "osm.amenity_points"
+    min_zoom = 14
+    max_zoom = 20
+
+    # Other Points
+    [[maps.layers]]
+    name = "other_points"
+    provider_layer = "osm.other_points"
+    min_zoom = 14
+    max_zoom = 20
+
+    # Other Lines
+    [[maps.layers]]
+    name = "other_lines"
+    provider_layer = "osm.other_lines"
+    min_zoom = 14
+    max_zoom = 20
+
+    [[maps.layers]]
+    name = "other_areas"
+    provider_layer = "osm.other_areas"
+    min_zoom = 9
+    max_zoom = 20
+
+    # Buildings
+    [[maps.layers]]
+    name = "buildings"
+    provider_layer = "osm.buildings"
+    min_zoom = 14
+    max_zoom = 20

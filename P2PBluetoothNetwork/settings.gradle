@@ -1,0 +1,2 @@
+include ':app', ':P2PBluetooth'
+rootProject.name = "bluetoothP2P"
